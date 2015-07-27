@@ -1,0 +1,105 @@
+$highlight: #ffcc00;
+a,
+a:hover,
+a:visited {
+    color: lighten($highlight, 20%);
+}
+
+
+/* general styles */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* padded section */
+
+.pad-section {
+    padding: 50px 0;
+}
+
+.pad-section img {
+    width: 100%;
+}
+
+
+/* additional sections */
+
+#photographer {
+    background: url(../assets/images/pjo-photo-1.jpg) no-repeat center center fixed;
+    min-height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 60px 3% 0 3%;
+
+    & h3 {
+        color: $highlight;
+
+            @media (max-width: 768px) {
+                text-align: right;
+            }
+    }
+
+    & .links {
+            text-align: right;
+    }
+}
+
+#about {}
+
+#services {
+    background-color: #306d9f;
+    color: #ffffff;
+}
+
+#services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+}
+
+#information {
+    background: url(../images/estate.jpg) no-repeat center center fixed;
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#information .panel {
+    opacity: 0.85;
+}
+
+#google_map {
+    height: 500px;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+
+footer .glyphicon:hover {
+    color: #306d9f;
+}
