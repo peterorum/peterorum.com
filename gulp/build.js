@@ -81,7 +81,7 @@ gulp.task('other', function () {
 
   return gulp.src([
     path.join(conf.paths.src, '/**/*'),
-    path.join('!' + conf.paths.src, '/**/*.{html,css,js,scss}')
+    path.join('!' + conf.paths.src, '/**/*.{html,css,js,scss,sublime-workspace,sublime-project,psd}')
   ])
     .pipe(fileFilter)
     .pipe(gulp.dest(path.join(conf.paths.dist, '/')));
