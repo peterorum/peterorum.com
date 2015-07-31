@@ -46,6 +46,11 @@ h2, .navbar-brand {
   background-size: cover;
   padding: 60px 3% 0 3%;
 
+  @media (max-width: $screen-xs-max) {
+    background-attachment: scroll;
+    padding-top: 40px; // show text - depends on photo. also links below
+  }
+
   & h3, & h2 {
     color: $highlight;
 
@@ -54,8 +59,12 @@ h2, .navbar-brand {
     }
   }
 
-  & .links {
+  & .pjo-links {
     text-align: right;
+
+    @media (max-width: 768px) {
+      padding-top: 45px; // show text - depends on photo.
+    }
   }
 }
 
@@ -66,8 +75,7 @@ h2, .navbar-brand {
     color: $dark-highlight;
   }
 
-  .pjo-project {
-  }
+  .pjo-project {}
 }
 
 .pjo-dark {
@@ -88,6 +96,10 @@ h2, .navbar-brand {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  @media (max-width: $screen-xs-max) {
+    background-attachment: scroll;
+  }
 }
 
 .pjo-daily-functal .panel {

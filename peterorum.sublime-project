@@ -7,7 +7,10 @@
 				"node_modules",
 				"bower_components"
 			],
-			"path": "/Users/peterorum/Projects/peterorum.com"
+			"path": "."
+		},
+		{
+			"path": "bower_components/bootstrap-sass-official"
 		}
 	]
 }
