@@ -3,7 +3,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+      <button type="button" class="navbar-toggle" ng-init="isNavCollapsed = true" ng-click="isNavCollapsed = !isNavCollapsed">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -11,12 +11,12 @@
       </button>
       <a class="navbar-brand" href="#/">Peter Orum</a>
     </div>
-    <div class="collapse navbar-collapse" collapse="navCollapsed">
+    <div class="collapse navbar-collapse" collapse="isNavCollapsed">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#/#photographer">Photographer</a></li>
-        <li><a href="#/#programmer">Programmer</a></li>
-        <li><a href="#/#painter">Painter</a></li>
-        <li><a href="#/#peter">Peter</a></li>
+        <li><a ng-click='isNavCollapsed = true' href="#/#photographer">Photographer</a></li>
+        <li><a ng-click='isNavCollapsed = true' href="#/#programmer">Programmer</a></li>
+        <li><a ng-click='isNavCollapsed = true' href="#/#painter">Painter</a></li>
+        <li><a ng-click='isNavCollapsed = true' href="#/#peter">Peter</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
