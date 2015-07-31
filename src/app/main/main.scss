@@ -1,4 +1,5 @@
 $highlight: #ffcc00;
+$dark-highlight: #ae3137;
 
 a,
 a:hover,
@@ -12,6 +13,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #fff;
 }
 
 /* padded section */
@@ -50,11 +52,20 @@ body {
   }
 }
 
-#about {}
+.pjo-light {
+  background-color: #fff;
 
-#services {
-  background-color: #306d9f;
-  color: #ffffff;
+  & h3 a {
+    color: $dark-highlight;
+  }
+}
+
+.pjo-dark {
+  background-color: #000;
+
+  & h3 {
+    color: $highlight;
+  }
 }
 
 #services .glyphicon {
@@ -70,9 +81,9 @@ body {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed;
+  background: url(../assets/images/pjo-functal-1.jpg) no-repeat center center fixed;
   display: table;
-  height: 800px;
+  height: 768px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -83,10 +94,6 @@ body {
 
 #information .panel {
   opacity: 0.85;
-}
-
-#google_map {
-  height: 500px;
 }
 
 footer {
