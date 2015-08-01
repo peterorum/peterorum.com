@@ -1,0 +1,5 @@
+﻿<div class="row" style="text-align: center">
+    <ul class="pagination pagination-large">
+        <li ng-repeat="i in pages" ng-class="{active: pageNo - 1 == $index}"><a ng-href="#/article/{{$index+1}}/{{i | lowercase | urlencode}}">{{$index + 1}}</a></li>
+    </ul>
+</div>

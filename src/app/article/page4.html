@@ -1,0 +1,114 @@
+﻿<h3>Genetic Tickets</h3>
+<p>
+    Another project in Abstraction, <i>Genetic Tickets </i>(figure 11), aimed to generate
+            paintings using a strictly defined procedure, similar to Sol Lewitt, in that technically
+            someone else could produce the works by following the documented steps. A very detailed
+            computer algorithm based on genetics was used. In an earlier series of paintings
+            involving train tickets, I had noticed each ticket had a unique serial number, which
+            could be likened to each individual person's DNA. The idea was to use this serial
+            number to have each ticket create its own unique painting in that way that our own
+            DNA defines us. The procedure was as follows:
+</p>
+<ul>
+    <li>
+        <p>
+            16 City Rail tickets were chosen at random, each to result in a small 20x25cm painting.
+        </p>
+        <li>
+            <p>
+                Each had their serial number converted to binary, as series of over forty ones and
+                        zeros, each called a <i>bit</i>. e.g. Typing <i>1234 in binary</i> into Google will
+                        convert 1,234 to 10011010010. This is similar to a chromosome.
+            </p>
+            <li>
+                <p>
+                    A few objects were chosen to make up the painting, namely a triangle, circle, dark
+                            bar and light bar, plus the background, based on the abstract T<i>icket 2</i> (fig
+                            13).
+                </p>
+            </li>
+    <li>
+        <p>
+            The background would have its color defined by hue, saturation and lightness numbers.
+                                The hue and saturation were defined by the serial number. All the paintings had
+                                the same high Lightness to provide unity.
+        </p>
+    </li>
+    <li>
+        <p>
+            Each object's position and orientation was also be specified by the serial number,
+                                    using a limited number of options, e.g. Top corner, left facing etc.
+        </p>
+    </li>
+    <li>
+        <p>
+            Each serial number's zeros and ones were divided into groups. Each group was of
+                                        sufficient size to provide just enough options for that attribute. A value with
+                                        just two options only needed one bit, which can be zero or one. Two bits has four
+                                        variations. And so on.
+        </p>
+    </li>
+    <li>
+        <p>
+            For example, the background hue was given 16 options, which requires 4 bits. The
+                                            last four bits of each binary serial number defined its hue.
+        </p>
+    </li>
+    <li>
+        <p>
+            The next two bits defined the background saturation, 0% (gray), 25%, 75% 100%.
+        </p>
+    </li>
+    <li>
+        <p>
+            Figure 14 shows some of my workings at the time.
+        </p>
+    </li>
+    <li>
+        <p>
+            The triangle hue had four possible values &ndash; same as background, complement
+                                                        of the background, or plus or minus two steps on a colour wheel.
+        </p>
+    </li>
+    <li>
+        <p>
+            The default values of the various numbers represented were defined by the results
+                                                            of the very first square, whose colors and positions were designed to match that
+                                                            of the large previous abstraction ticket painting project I had done. (Figure 13).
+                                                            i.e. for the very first ticket, if its Hue value was 8, then hue 8 was defined to
+                                                            be orange, to match the original painting.
+        </p>
+    </li>
+</ul>
+<p>
+    This procedure of identifying the attribute of an object by a long series of zeros
+            and ones is exactly the process used in computer science when using a genetic algorithm
+            to solve a complicated optimization problem, e.g. timetable scheduling. I found it an interesting process to follow, and I like the way an object can deterministically
+            define an abstraction representation of itself.
+</p>
+<div style="text-align: center">
+    <p>
+    <img src="/views/article/images/Genetic-tickets.jpg" name="graphics11" border="0">
+        <br />
+        Fig 11.<i> Genetic Tickets</i> 2005, Acrylic on canvas, 16 images, each 20x25cm
+    </p>
+    <p>
+        &nbsp;
+    </p>
+    <p>
+        <img src="/views/article/images/Ticket1.jpg" name="graphics12" >
+        <br>
+        Fig 12 Ticket 2004, Acrylic on canvas 100x75cm
+    </p>
+    <p>
+        <img src="/views/article/images/Ticket2.jpg" name="graphics13" ><br />
+        Fig 13. <i>Ticket 2,</i><span lang="en-US"> 2005, Acrylic on canvas 100x75cm
+    </p>
+    <p>
+        <img src="/views/article/images/Genetic-workings.jpg" >
+        <br>
+    </p>
+    <p>
+        Fig 14. Workings for Genetic Tickets
+    </p>
+</div>
