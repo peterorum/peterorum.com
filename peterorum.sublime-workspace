@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
 				"font-",
 				"font-family"
 			],
@@ -506,19 +514,19 @@
 			[
 				"to",
 				"toString"
-			],
-			[
-				"ch",
-				"channel1"
-			],
-			[
-				"wr",
-				"writeData"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"contents": "<html><body>\n    <a href=\"http://peterorum.com\">peterorum.com</a>\n</body></html>",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -527,16 +535,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 159.0,
-		"last_filter": "Snippet: ou",
+		"height": 375.0,
+		"last_filter": "ssht",
 		"selected_items":
 		[
 			[
-				"Snippet: ou",
-				"Snippet: outline"
+				"ssht",
+				"Set Syntax: HTML"
 			],
 			[
 				"Snippet: ",
+				"Snippet: outline"
+			],
+			[
+				"Snippet: ou",
 				"Snippet: outline"
 			],
 			[
@@ -562,10 +574,6 @@
 			[
 				"ssmd",
 				"Set Syntax: Markdown (Github Flavored)"
-			],
-			[
-				"ssht",
-				"Set Syntax: HTML"
 			],
 			[
 				"evern",
@@ -784,34 +792,40 @@
 	"expanded_folders":
 	[
 		"/Users/peterorum/Projects/peterorum.com",
-		"/Users/peterorum/Projects/peterorum.com/.tmp",
-		"/Users/peterorum/Projects/peterorum.com/.tmp/serve",
-		"/Users/peterorum/Projects/peterorum.com/.tmp/serve/app",
 		"/Users/peterorum/Projects/peterorum.com/src",
-		"/Users/peterorum/Projects/peterorum.com/src/app",
-		"/Users/peterorum/Projects/peterorum.com/src/app/main",
-		"/Users/peterorum/Projects/peterorum.com/src/assets",
-		"/Users/peterorum/Projects/peterorum.com/src/assets/images"
+		"/Users/peterorum/Projects/peterorum.com/src/app"
 	],
 	"file_history":
 	[
+		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.html",
+		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.scss",
+		"/Users/peterorum/Projects/peterorum.com/src/index.html",
+		"/Users/peterorum/Projects/peterorum.com/peterorum.sublime-project",
+		"/Users/peterorum/Projects/peterorum.com/gulp/build.js",
+		"/Users/peterorum/Projects/peterorum.com/bower_components/components-font-awesome/scss/_variables.scss",
+		"/Users/peterorum/Projects/peterorum.com/src/app/index.scss",
+		"/Users/peterorum/Dropbox/Projects/peterorum.com-old/robots.txt",
+		"/Users/peterorum/Projects/peterorum.com/.tmp/serve/app/index.css",
+		"/Users/peterorum/Projects/peterorum.com/.tmp/serve/app/index.module.js",
+		"/Users/peterorum/Projects/peterorum.com/.yo-rc.json",
+		"/Users/peterorum/Projects/peterorum.com/bower_components/components-font-awesome/bower.json",
+		"/Users/peterorum/Projects/peterorum.com/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js",
+		"/Users/peterorum/Projects/peterorum.com/dist/index.html",
+		"/Users/peterorum/Projects/peterorum.com/bower_components/components-font-awesome/scss/font-awesome.scss",
+		"/Users/peterorum/Projects/peterorum.com/bower.json",
+		"/Users/peterorum/Dropbox/Sublime/User/snippets/outline.sublime-snippet",
+		"/Users/peterorum/Projects/peterorum.com/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_carousel.scss",
 		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.controller.js",
 		"/Users/peterorum/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/peterorum/Projects/peterorum.com/src/index.html",
-		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.scss",
-		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.html",
 		"/Users/peterorum/Projects/seraline-site/server.js",
 		"/Users/peterorum/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/Users/peterorum/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (OSX).sublime-keymap",
 		"/Users/peterorum/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/Users/peterorum/Projects/peterorum.com/.tmp/serve/app/index.css",
 		"/Users/peterorum/Projects/peterorum.com/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
 		"/Users/peterorum/Projects/peterorum.com/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_grid.scss",
 		"/Users/peterorum/Projects/peterorum.com/.tmp/serve/index.html",
-		"/Users/peterorum/Projects/peterorum.com/bower.json",
 		"/Users/peterorum/Projects/peterorum.com/src/app/index.run.js",
 		"/Users/peterorum/Projects/peterorum.com/src/app/index.module.js",
-		"/Users/peterorum/Projects/peterorum.com/src/app/index.scss",
 		"/Users/peterorum/Projects/peterorum.com/e2e/main.spec.js",
 		"/Users/peterorum/Projects/peterorum.com/.jshintrc",
 		"/Users/peterorum/Projects/peterorum.com/src/app/main/main.controller.spec.js",
@@ -910,19 +924,7 @@
 		"/Users/peterorum/Projects/functal/functals/small/functal-20150613084953653.json",
 		"/Users/peterorum/Projects/functal/functals/small/functal-20150613085156312.json",
 		"/Users/peterorum/Projects/functal/functals/small/functal-20150613083626120.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613084852742.json",
-		"/Users/peterorum/Projects/functal/plus-fp/plus-fp.js",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613074909977.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613081854088.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613074151069.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613073220081.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613074008745.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613061242054.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613061031717.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613060220165.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613060502473.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613060640017.json",
-		"/Users/peterorum/Projects/functal/functals/small/functal-20150613055655621.json"
+		"/Users/peterorum/Projects/functal/functals/small/functal-20150613084852742.json"
 	],
 	"find":
 	{
@@ -952,6 +954,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"analy",
+			"..",
+			"bower",
+			"$fa-font-path:",
+			"$fa-font-path",
+			"font",
+			"import.*font-awesome",
+			"font-awesome",
+			"@import \"font-awesome\";",
+			"public/fonts",
+			"$fa-font-path",
+			"fa ",
+			"navCollapsed",
+			"ui.bootst",
+			"&nbsp;",
+			"animate.css",
+			"awesome",
+			"links",
+			"h3",
+			"$screen-xs-max",
+			"$screen-",
+			"other",
+			"app",
 			"icon",
 			"#information",
 			" class=\"panel-title\"",
@@ -1056,30 +1081,7 @@
 			"modifiers",
 			"bander",
 			"Shape2DEllipse",
-			"Shape2DCircle",
-			"polygon",
-			"Shape2DAngle",
-			"math.random",
-			"line.",
-			".pi",
-			"Shape2DAngle",
-			"Shape2DTriangle",
-			"Shape2DRectangle",
-			"Shape2DSquare",
-			"trap",
-			"reduce",
-			"maxDistance",
-			"border =",
-			"maxCount",
-			"0000",
-			"reduce",
-			"Number.",
-			"grid",
-			"polygon",
-			"pick",
-			"hslStats",
-			"minHslStats",
-			"std"
+			"Shape2DCircle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1162,8 +1164,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								80
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "/Users/peterorum/Projects/peterorum.com",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1221,6 +1254,18 @@
 		[
 			[
 				"index",
+				"peterorum.com/src/index.html"
+			],
+			[
+				"bui",
+				"peterorum.com/gulp/build.js"
+			],
+			[
+				"main",
+				"peterorum.com/src/app/main/main.html"
+			],
+			[
+				"in",
 				"src/index.html"
 			],
 			[

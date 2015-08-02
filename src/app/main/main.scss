@@ -50,7 +50,7 @@ i.fa {
   background-size: cover;
   padding: 60px 3% 0 3%;
 
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-sm-max) {
     background-attachment: scroll;
     padding-top: 40px; // show text - depends on photo. also links below
   }
@@ -58,7 +58,7 @@ i.fa {
   & h3, & h2 {
     color: $highlight;
 
-    @media (max-width: 768px) {
+    @media (max-width: $screen-sm-max) {
       text-align: left;
     }
   }
@@ -66,7 +66,7 @@ i.fa {
   & .pjo-links {
     text-align: right;
 
-    @media (max-width: 768px) {
+    @media (max-width: $screen-sm-max) {
       padding-top: 45px; // show text - depends on photo.
     }
 
@@ -75,7 +75,7 @@ i.fa {
       float: right;
       padding: 0 0 0 20px;
 
-      @media (max-width: 768px) {
+      @media (max-width: $screen-sm-max) {
         float: left;
         padding: 0;
       }
@@ -105,7 +105,7 @@ i.fa {
 .pjo-daily-functal {
   background: url(../assets/images/pjo-functal-1.jpg) no-repeat center center fixed;
   display: table;
-  height: 768px;
+  height: $screen-sm-max;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -113,7 +113,7 @@ i.fa {
   -o-background-size: cover;
   background-size: cover;
 
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-sm-max) {
     background-attachment: scroll;
   }
 }
