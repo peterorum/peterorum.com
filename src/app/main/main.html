@@ -1,192 +1,198 @@
-
 <!-- navigation panel -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" ng-init="isNavCollapsed = true" ng-click="isNavCollapsed = !isNavCollapsed">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#/">Peter Orum</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" ng-init="isNavCollapsed = true" ng-click="isNavCollapsed = !isNavCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/">Peter Orum</a>
+        </div>
+        <div class="collapse navbar-collapse" collapse="isNavCollapsed">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ng-click='isNavCollapsed = true' href="#/#photographer">Photographer</a></li>
+                <li><a ng-click='isNavCollapsed = true' href="#/#programmer">Programmer</a></li>
+                <li><a ng-click='isNavCollapsed = true' href="#/#painter">Painter</a></li>
+                <li><a ng-click='isNavCollapsed = true' href="#/#peter">Peter</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-    <div class="collapse navbar-collapse" collapse="isNavCollapsed">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a ng-click='isNavCollapsed = true' href="#/#photographer">Photographer</a></li>
-        <li><a ng-click='isNavCollapsed = true' href="#/#programmer">Programmer</a></li>
-        <li><a ng-click='isNavCollapsed = true' href="#/#painter">Painter</a></li>
-        <li><a ng-click='isNavCollapsed = true' href="#/#peter">Peter</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container-fluid -->
+    <!-- /.container-fluid -->
 </nav>
 <!-- photographer -->
 <div id="photographer" class="pad-section pjo-dark pjo-photographer">
-  <div class="container">
-    <div class="row">
-      <div class='col-xs-12 col-sm-6 pjo-photographer-heading'>
-        <h2>Street photographer</h2>
-      </div>
-      <div class='col-xs-12 col-sm-6 pjo-links'>
-        <h3><a href='http://street.pics' target='_blank'><i class="fa fa-fw fa-tumblr"></i>street.pics</a></h3>
-        <h3><a href='https://instagram.com/peterorum' target='_blank'><i class="fa fa-fw fa-instagram"></i>instagram</a></h3>
-        <h3><a href='https://www.facebook.com/peterorumphotography' target='_blank'><i class="fa fa-fw fa-facebook"></i>facebook</a></h3>
-        <h3><a href='https://www.flickr.com/photos/petero2' target='_blank'><i class="fa fa-fw fa-flickr"></i>flickr</a></h3>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class='col-xs-12 col-sm-6 pjo-photographer-heading'>
+                <h2>Street photographer</h2>
+            </div>
+            <div class='col-xs-12 col-sm-6 pjo-links'>
+                <h3><a href='http://street.pics' target='_blank'><i class="fa fa-fw fa-tumblr"></i>street.pics</a></h3>
+                <h3><a href='https://instagram.com/peterorum' target='_blank'><i class="fa fa-fw fa-instagram"></i>instagram</a></h3>
+                <h3><a href='https://www.facebook.com/peterorumphotography' target='_blank'><i class="fa fa-fw fa-facebook"></i>facebook</a></h3>
+                <h3><a href='https://www.flickr.com/photos/petero2' target='_blank'><i class="fa fa-fw fa-flickr"></i>flickr</a></h3>
+                <h3><a href='http://au.blurb.com/user/petero2' target='_blank'><i class="fa fa-fw fa-book"></i>books</a></h3>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <!-- programmer -->
 <div id="programmer" class="pad-section pjo-light pjo-programmer">
-  <div class="container">
-    <h2 class="text-left">Programmer</h2>
-    <hr />
-    <div class="row text-left">
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Daily Functal</h3>
-          </div>
-          <div class="panel-body">
-            <p>iPhone app & bots</p>
-            <p>Digital fractal art</p>
-            <p>Node server <a href="https://github.com/peterorum/functal" target="_blank">github</a></p>
-            <p>Ionic app <a href="https://github.com/peterorum/functalapp" target="_blank">github</a></p>
-            <p>Node bots <a href="https://github.com/peterorum/functalbook" target="_blank">github</a></p>
-          </div>
+    <div class="container">
+        <h2 class="text-left">Programmer</h2>
+        <hr />
+        <div class="row text-left">
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Daily Functal</h3>
+                    </div>
+                    <div class="panel-body">
+                        <!-- <p>iPhone app & bots</p> -->
+                        <p>iPhone app & bots</p>
+                        <p>Digital fractal art</p>
+                        <p>Node server <a href="https://github.com/peterorum/functal" target="_blank">github</a></p>
+                        <p>Ionic app <a href="https://github.com/peterorum/functalapp" target="_blank">github</a></p>
+                        <p>Node bots <a href="https://github.com/peterorum/functalbook" target="_blank">github</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Data. Hmm.</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Twitter bot</p>
+                        <p>Retweet topics trending in Australia and other countries</p>
+                        <p><a href="https://twitter.com/datahmm" target="_blank">@datahmm</a></p>
+                        <p>Python <a href="https://github.com/peterorum/data-hmm" target="_blank">github</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Daily Jzx</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Twitter bot</p>
+                        <p>Short, valuable scrabble words</p>
+                        <p><a href="https://twitter.com/dailyjzx" target="_blank">@dailyjzx</a></p>
+                        <p><a href="https://www.facebook.com/pages/Daily-Jzx/848455901888299" target="_blank">facebook</a></p>
+                        <p>Node <a href="https://github.com/peterorum/random/tree/master/jzx" target="_blank">github</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Paintings I Love</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Social network for artists</p>
+                        <p>Founder</p>
+                        <p>.Net MVC, SQL Server, Linq to Sql, angular</p>
+                        <p>Python social network analysis</p>
+                        <p><a href="http://www.paintingsilove.com" target="_blank">paintingsilove.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>peterorum .com</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>angular, gulp, bower, yeoman</p>
+                        <p><a href="https://github.com/peterorum/peterorum.com" target="_blank">github</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12 pjo-project">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Blog</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p><a href="http://codeindeed.com" target="_blank">code: indeed</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Data. Hmm.</h3>
-          </div>
-          <div class="panel-body">
-            <p>Twitter bot</p>
-            <p>Retweet topics trending in Australia and other countries</p>
-            <p><a href="https://twitter.com/datahmm" target="_blank">@datahmm</a></p>
-            <p>Python <a href="https://github.com/peterorum/data-hmm" target="_blank">github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Daily Jzx</h3>
-          </div>
-          <div class="panel-body">
-            <p>Twitter bot</p>
-            <p>Short, valuable scrabble words</p>
-            <p><a href="https://twitter.com/dailyjzx" target="_blank">@dailyjzx</a></p>
-            <p><a href="https://www.facebook.com/pages/Daily-Jzx/848455901888299" target="_blank">facebook</a></p>
-            <p>Node <a href="https://github.com/peterorum/random/tree/master/jzx" target="_blank">github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Paintings I Love</h3>
-          </div>
-          <div class="panel-body">
-            <p>Social network for artists</p>
-            <p>Founder</p>
-            <p>.Net MVC, SQL Server, Linq to Sql, angular</p>
-            <p>Python social network analysis</p>
-            <p><a href="http://www.paintingsilove.com" target="_blank">paintingsilove.com</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>peterorum .com</h3>
-          </div>
-          <div class="panel-body">
-          <p>angular, gulp, bower, yeoman</p>
-            <p><a href="https://github.com/peterorum/peterorum.com" target="_blank">github</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-12 pjo-project">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Blog</h3>
-          </div>
-          <div class="panel-body">
-            <p><a href="http://codeindeed.com" target="_blank">code: indeed</a></p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 <!-- daily functal -->
 <div class="pad-section pjo-light pjo-daily-functal">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-sm-6">
+    <div class="panel panel-default">
+        <div class="panel-heading">
             <h3>Daily Functal</h3>
-          </div>
-          <div class="panel-body lead">
+        </div>
+        <div class="panel-body lead">
             <p>New, beautiful fractals every day. Save your favorites to your photos and use them as wallpaper for your iPhone or iPad.</p>
             <h3><a href='https://bit.ly/dailyfunctal' target="_blank"><i class="fa fa-fw fa-apple"></i> iPhone app</a></h3>
-          </div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3>Follow Daily Functal</h3>
-          </div>
-          <div class="panel-body lead">
-            <h3><a href="https://www.facebook.com/dailyfunctal" target="_blank"><i class="fa fa-fw fa-facebook"></i> facebook</a></h3>
-            <h3><a href="https://twitter.com/dailyfunctal" target="_blank"><i class="fa fa-fw fa-twitter"></i> twitter</a></h3>
-            <h3><a href="http://functal.tumblr.com" target="_blank"><i class="fa fa-fw fa-tumblr"></i> tumblr</a></h3>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
+ -->
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Follow Daily Functal</h3>
+                        <p>New, beautiful fractals every day.</p>
+                    </div>
+                    <div class="panel-body lead">
+                        <h3><a href="https://www.facebook.com/dailyfunctal" target="_blank"><i class="fa fa-fw fa-facebook"></i> facebook</a></h3>
+                        <h3><a href="https://twitter.com/dailyfunctal" target="_blank"><i class="fa fa-fw fa-twitter"></i> twitter</a></h3>
+                        <h3><a href="http://functal.tumblr.com" target="_blank"><i class="fa fa-fw fa-tumblr"></i> tumblr</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- painter -->
 <div id="painter" class="pad-section pjo-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="assets/images/pjo-paint-1.jpg" alt="" />
-      </div>
-      <div class="col-sm-6 text-center">
-        <h2>Painter</h2>
-        <h3><a href='http://www.paintingsilove.com/artist/peterorum' target="_blank">paintingsilove.com/peterorum</a></h3>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/pjo-paint-2.jpg" alt="" />
+            </div>
+            <div class="col-sm-6 text-center">
+                <h2>Painter</h2>
+                <h3><a href='http://www.paintingsilove.com/artist/peterorum' target="_blank">paintingsilove.com/peterorum</a></h3>
+                <div class="pjo-padding-top">
+                    <img src="assets/images/pjo-paint-3.jpg" alt="" />
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <!-- peter -->
 <div id="peter" class="pad-section pjo-dark pjo-peter">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2><a class="twitter-timeline" href="https://twitter.com/peterorum" target="_blank" data-widget-id="385974880362971136"><i class="fa fa-fw fa-twitter"></i> twitter</a></h2>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2><a class="twitter-timeline" href="https://twitter.com/peterorum" target="_blank" data-widget-id="385974880362971136"><i class="fa fa-fw fa-twitter"></i> twitter</a></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2><a href="https://au.linkedin.com/in/peterorum" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a></h2>
+                <h2><a href="https://github.com/peterorum" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a></h2>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2><a href="https://au.linkedin.com/in/peterorum" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a></h2>
-        <h2><a href="https://github.com/peterorum" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a></h2>
-      </div>
-    </div>
-  </div>
 </div>
 <!-- footer -->
 <footer>
-  <div class="container">
-    <p class="text-right">&copy; Peter Orum 2015</p>
-  </div>
+    <div class="container">
+        <p class="text-right">&copy; Peter Orum 2016</p>
+    </div>
 </footer>
