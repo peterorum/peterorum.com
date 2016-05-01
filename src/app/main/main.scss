@@ -104,7 +104,7 @@ i.fa {
 .pjo-daily-functal {
     background: url(../assets/images/pjo-functal-1.jpg) no-repeat center center fixed;
     display: table;
-    height: $screen-sm-max;
+    height: $screen-sm-max / 2;
     position: relative;
     width: 100%;
     -webkit-background-size: cover;
@@ -122,7 +122,7 @@ i.fa {
 }
 
 .pjo-padding-top {
-        padding-top: 40px;
+    padding-top: 40px;
 }
 
 footer {
