@@ -6,125 +6,155 @@ $dark-highlight: #ae3137;
 a,
 a:hover,
 a:visited {
-    color: lighten($highlight, 20%);
+  color: lighten($highlight, 20%);
 }
 
 /* general styles */
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
 }
 
 /* padded section */
 
 .pad-section {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .pad-section img {
-    width: 100%;
+  width: 100%;
 }
 
 h2, .navbar-brand {
-    font-family: Julius Sans One;
-    font-weight: bold;
+  font-family: Julius Sans One;
+  font-weight: bold;
 }
 
 i.fa {
-    width: 30px;
+  width: 30px;
 }
 
 /* additional sections */
 
 .pjo-photographer {
-    background: url(../assets/images/pjo-photo-2.jpg) no-repeat center center fixed;
-    min-height: 800px;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 60px 3% 0 3%;
+  background: no-repeat center center fixed;
+  transition: background-image 1s ease-in-out;
+  min-height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 60px 3% 0 3%;
+
+  @media (max-width: $screen-sm-max) {
+    background-attachment: scroll;
+    padding-top: 40px; // show text - depends on photo. also links below
+  }
+
+  & h3, & h2 {
+    color: $highlight;
 
     @media (max-width: $screen-sm-max) {
-        background-attachment: scroll;
-        padding-top: 40px; // show text - depends on photo. also links below
+      text-align: left;
+    }
+  }
+
+   & .pjo-photographer-heading {
+        // @include gradient-directional(#000, transparent, 90deg);
     }
 
-    & h3, & h2 {
-        color: $highlight;
+  & .pjo-links {
+    text-align: right;
 
-        @media (max-width: $screen-sm-max) {
-            text-align: left;
-        }
+    @media (max-width: $screen-sm-max) {
+      padding-top: 45px; // show text - depends on photo.
     }
 
-    & .pjo-links {
-        text-align: right;
+    // icons
+    .fa {
+      float: right;
+      padding: 0 0 0 20px;
 
-        @media (max-width: $screen-sm-max) {
-            padding-top: 45px; // show text - depends on photo.
-        }
-
-        // icons
-        .fa {
-            float: right;
-            padding: 0 0 0 20px;
-
-            @media (max-width: $screen-sm-max) {
-                float: left;
-                padding: 0;
-            }
-        }
+      @media (max-width: $screen-sm-max) {
+        float: left;
+        padding: 0;
+      }
     }
+  }
 }
 
+.pjo-photo-0 {
+  background-image: url('../assets/images/PETE0002-1.jpg');
+}
+
+.pjo-photo-1 {
+  background-image: url('../assets/images/pjo-photo-1.jpg');
+}
+
+.pjo-photo-2 {
+  background-image: url('../assets/images/pjo-photo-2.jpg');
+}
+
+.pjo-photo-3 {
+  background-image: url('../assets/images/DSC00105-as-Smart-Object-1.jpg');
+}
+
+.pjo-photo-4 {
+  background-image: url('../assets/images/PO001217-as-Smart-Object-1.jpg');
+}
+
+.pjo-photo-5 {
+  background-image: url('../assets/images/image-6.jpg');
+}
+
+
 .pjo-light {
-    background-color: #fff;
+  background-color: #fff;
 
-    a, h3 a {
-        color: $dark-highlight;
-    }
+  a, h3 a {
+    color: $dark-highlight;
+  }
 
-    .pjo-project {}
+  .pjo-project {}
 }
 
 .pjo-dark {
-    background-color: #000;
+  background-color: #000;
 
-    & h3 {
-        color: $highlight;
-    }
+  & h3 {
+    color: $highlight;
+  }
 }
 
 .pjo-daily-functal {
-    background: url(../assets/images/pjo-functal-1.jpg) no-repeat center center fixed;
-    display: table;
-    height: $screen-sm-max / 2;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url(../assets/images/pjo-functal-1.jpg) no-repeat center center fixed;
+  display: table;
+  height: $screen-sm-max / 2;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    @media (max-width: $screen-sm-max) {
-        background-attachment: scroll;
-    }
+  @media (max-width: $screen-sm-max) {
+    background-attachment: scroll;
+  }
 }
 
 .pjo-daily-functal .panel {
-    opacity: 0.85;
+  opacity: 0.85;
 }
 
 .pjo-padding-top {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 footer {
-    padding: 20px 0;
+  padding: 20px 0;
 }
