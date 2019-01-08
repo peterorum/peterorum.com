@@ -7,4 +7,5 @@
 
 cd /home/ec2-user/peterorum
 
+/usr/local/bin/node/bin/forever stop server.js
 /usr/local/bin/node/bin/forever start server.js
